@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  /* Formatação geral da pagina */
+  .container_page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Inicio da formatação da parte superior (Cadastro dos Clientes) */
+  .background_page_cli{
+    background-image: url(background-css.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .card_page_sup{
+    background: rgb(173, 230, 238);
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 300px;
+  }
+
+  .card_page_cadas{
+    background: rgb(37, 49, 51);
+    border-radius: 0px;
+    padding: 0px;
+    max-width: 300px;
+    color: antiquewhite;
+  }
+ /* Fim da formatação da parte superior (Cadastro dos Clientes) */
+
+
+ /* Inicio da formatação da parte inferior (Cadastro de Produtos) */
+  .background_page_prod{
+    background-image: url(white_bkg.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.card_page_inf{
+  background: rgb(1, 65, 73);
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 300px;
+}
+
+.card_page_cad_prod{
+  background: rgb(173, 230, 238);
+  border-radius: 0px;
+  padding: 0px;
+  max-width: 300px;
+  color: darkslategrey;
+}
+ /* Fim da formatação da parte inferior (Cadastro de Produtos) */
+
+  form{
+    display: grid;
+    grid-gap: 7px;
+  }

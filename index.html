@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Painel para cadastros | Clientes/Produtos</title>
+    
+<body>
+    <section class="container_page background_page_cli">
+        <center>
+            <p style="text-align: center;"><span style="font-size: 36px; color: rgb(255, 255, 255);"><b>Formulário para Cadastro de Novos Clientes</b></span></p>
+            <p> <br> </br> </p>
+        
+            <div class="card_page_sup">
+                <form id="form_cli_cad">
+                    <input type="number" placeholder="CPF" id="cpf_cli">
+                    <input type="text" placeholder="Nome" id="nome_cli">
+                    <input type="text" placeholder="E-mail" id="eml_cli">
+                    <input type="number" placeholder="Telefone" id="tel_cli">
+                    <input type="text" placeholder="Endereço" id="end_cli">
+                    <input type="number" placeholder="Numero" id="num_cli">
+                    <input type="text" placeholder="Complemento" id="comp_cli">
+                    <input type="text" placeholder="Bairro" id="bairro_cli">
+                    <input type="text" placeholder="CEP 00000-000" id="cep_cli">
+                    <input type="text" placeholder="Cidade" id="cid_cli">
+                    <input type="text" placeholder="Estado" id="est_cli">
+                    <input type="submit" value="Concluir Cadastro" class="card_page_cadas">
+                </form>
+            </div>
+        </center>
+    </section>
+
+
+    <section class="container_page background_page_prod">
+        <center>
+            <p style="text-align: center;"><span style="font-size: 36px; color: rgb(41, 39, 39);"><b>Formulário para Cadastro de Produtos</b></span></p>
+            <p> <br> </br> </p>
+        
+            <div class="card_page_inf">
+                <form id="form_prod_cad">
+                    <input type="text" placeholder="Nome do Produto" id="nome_prod">
+                    <input type="text" placeholder="Marca do Produto" id="marca_prod">
+                    <input type="number" placeholder="Quantidade do Produto" id="qtde_prod">
+                    <input type="text" placeholder="Categoria do Produto" id="cat_prod">
+                    <input type="number" placeholder="Preço de Custo do Produto" id="cust_prod">
+                    <input type="number" placeholder="Preço de Venda do Produto" id="venda_prod">
+                    <input type="submit" value="Concluir Cadastro" class="card_page_cad_prod">
+                </form>
+            </div>
+        </center>
+    </section>
+
+    <script src="script_js.js"></script>
+
+</body>
+</html>
